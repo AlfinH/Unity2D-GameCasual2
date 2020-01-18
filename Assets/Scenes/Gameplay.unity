@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 1548836750}
   - component: {fileID: 1548836749}
   - component: {fileID: 1548836751}
+  - component: {fileID: 1548836752}
   m_Layer: 0
   m_Name: BoxNonOrganik
   m_TagString: Untagged
@@ -578,7 +579,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -594,6 +595,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1548836752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548836748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9418372e36514b4ab41ff2eb68a96e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTag: 'NonOrganik '
+  audioBenar: {fileID: 8300000, guid: 3ecd62f36956fc94b837aafa53440aea, type: 3}
+  audioSalah: {fileID: 8300000, guid: b79a91177a1762c44a0c6dbbd745f01e, type: 3}
+  textScore: {fileID: 1727238979}
 --- !u!1 &1564067991
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +727,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 150, y: 100}
+  m_SizeDelta: {x: 1000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1727238979
 MonoBehaviour:
@@ -763,6 +780,7 @@ GameObject:
   - component: {fileID: 1825284934}
   - component: {fileID: 1825284933}
   - component: {fileID: 1825284935}
+  - component: {fileID: 1825284936}
   m_Layer: 0
   m_Name: BoxOrganik
   m_TagString: Untagged
@@ -844,7 +862,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -860,3 +878,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1825284936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825284932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9418372e36514b4ab41ff2eb68a96e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTag: 'Organik '
+  audioBenar: {fileID: 8300000, guid: 3ecd62f36956fc94b837aafa53440aea, type: 3}
+  audioSalah: {fileID: 8300000, guid: b79a91177a1762c44a0c6dbbd745f01e, type: 3}
+  textScore: {fileID: 1727238979}
