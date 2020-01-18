@@ -282,8 +282,9 @@ GameObject:
   - component: {fileID: 1169558233}
   - component: {fileID: 1169558236}
   - component: {fileID: 1169558235}
+  - component: {fileID: 1169558237}
   m_Layer: 0
-  m_Name: NonOrganik_Botol
+  m_Name: SampahNonOrganik
   m_TagString: 'NonOrganik '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -400,6 +401,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1169558237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169558232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48b78c795bfcd34892612d46e7d53ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 334e295528a218140a9546db7e5b05d7, type: 3}
+  - {fileID: 21300000, guid: af49773425c08734988caae474adfa4e, type: 3}
+  - {fileID: 21300000, guid: afc046b1c51a8094bac01045a247beea, type: 3}
 --- !u!1 &1251255732
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,8 +717,9 @@ GameObject:
   - component: {fileID: 1685467372}
   - component: {fileID: 1685467375}
   - component: {fileID: 1685467374}
+  - component: {fileID: 1685467376}
   m_Layer: 0
-  m_Name: Organik_Apple
+  m_Name: SampahOrganik
   m_TagString: 'Organik '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -818,6 +836,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1685467376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685467371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48b78c795bfcd34892612d46e7d53ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 395328474e732d9418556f02328b95ee, type: 3}
+  - {fileID: 21300000, guid: 57e709cd6d51b9e45a7f17c38e358c47, type: 3}
+  - {fileID: 21300000, guid: f5e0f5313cb3c5946acd68c8f79af5c8, type: 3}
 --- !u!1 &1727238977
 GameObject:
   m_ObjectHideFlags: 0
